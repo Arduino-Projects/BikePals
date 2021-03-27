@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9151BFC260F933D00F945CD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9151BFB260F933D00F945CD /* Home.swift */; };
+		B9151BFF260F938300F945CD /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9151BFE260F938300F945CD /* CircularProgressView.swift */; };
+		B9151C02260F9A5B00F945CD /* Career.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9151C01260F9A5B00F945CD /* Career.swift */; };
+		B9151C05260F9AA100F945CD /* CareerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9151C04260F9AA100F945CD /* CareerCell.xib */; };
+		B9151C08260F9AB300F945CD /* CareerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9151C07260F9AB300F945CD /* CareerCell.swift */; };
+		B95BAC98260F7B6F003A42F2 /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95BAC97260F7B6F003A42F2 /* Friends.swift */; };
 		B98F6FDF260EDFC10059B4D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F6FDE260EDFC10059B4D9 /* AppDelegate.swift */; };
 		B98F6FE1260EDFC10059B4D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F6FE0260EDFC10059B4D9 /* SceneDelegate.swift */; };
 		B98F6FE3260EDFC10059B4D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98F6FE2260EDFC10059B4D9 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9151BFB260F933D00F945CD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B9151BFE260F938300F945CD /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		B9151C01260F9A5B00F945CD /* Career.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Career.swift; sourceTree = "<group>"; };
+		B9151C04260F9AA100F945CD /* CareerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CareerCell.xib; sourceTree = "<group>"; };
+		B9151C07260F9AB300F945CD /* CareerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareerCell.swift; sourceTree = "<group>"; };
+		B95BAC97260F7B6F003A42F2 /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
 		B98F6FDB260EDFC10059B4D9 /* HooHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HooHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98F6FDE260EDFC10059B4D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98F6FE0260EDFC10059B4D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,9 +71,15 @@
 				B98F6FDE260EDFC10059B4D9 /* AppDelegate.swift */,
 				B98F6FE0260EDFC10059B4D9 /* SceneDelegate.swift */,
 				B98F6FE2260EDFC10059B4D9 /* ViewController.swift */,
+				B95BAC97260F7B6F003A42F2 /* Friends.swift */,
+				B9151C01260F9A5B00F945CD /* Career.swift */,
+				B9151BFB260F933D00F945CD /* Home.swift */,
+				B9151BFE260F938300F945CD /* CircularProgressView.swift */,
 				B98F6FE4260EDFC10059B4D9 /* Main.storyboard */,
 				B98F6FE7260EDFC20059B4D9 /* Assets.xcassets */,
 				B98F6FE9260EDFC20059B4D9 /* LaunchScreen.storyboard */,
+				B9151C04260F9AA100F945CD /* CareerCell.xib */,
+				B9151C07260F9AB300F945CD /* CareerCell.swift */,
 				B98F6FEC260EDFC20059B4D9 /* Info.plist */,
 			);
 			path = HooHacks;
@@ -125,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B98F6FEB260EDFC20059B4D9 /* LaunchScreen.storyboard in Resources */,
+				B9151C05260F9AA100F945CD /* CareerCell.xib in Resources */,
 				B98F6FE8260EDFC20059B4D9 /* Assets.xcassets in Resources */,
 				B98F6FE6260EDFC10059B4D9 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +158,12 @@
 			files = (
 				B98F6FE3260EDFC10059B4D9 /* ViewController.swift in Sources */,
 				B98F6FDF260EDFC10059B4D9 /* AppDelegate.swift in Sources */,
+				B9151BFC260F933D00F945CD /* Home.swift in Sources */,
+				B9151C02260F9A5B00F945CD /* Career.swift in Sources */,
 				B98F6FE1260EDFC10059B4D9 /* SceneDelegate.swift in Sources */,
+				B9151C08260F9AB300F945CD /* CareerCell.swift in Sources */,
+				B9151BFF260F938300F945CD /* CircularProgressView.swift in Sources */,
+				B95BAC98260F7B6F003A42F2 /* Friends.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
