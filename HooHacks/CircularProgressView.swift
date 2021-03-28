@@ -1,3 +1,9 @@
+//
+//  HooHacks
+//
+//  Created by Araad Shams on 2021-03-27.
+//
+
 import UIKit
 class CircularProgressView: UIView {
     // First create two layer properties
